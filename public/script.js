@@ -4,7 +4,6 @@ $(".link").on("click", function (e) {
 		e.preventDefault();
 
 		const hash = this.hash;
-		console.log(this)
 		$("html, body").animate(
 			{
 				scrollTop: $(hash).offset().top,
